@@ -1,0 +1,7 @@
+/bsp/
+/cmsis/
+/firmware/
+/makefile
+/objects.mk
+/sources.mk
+/user/
