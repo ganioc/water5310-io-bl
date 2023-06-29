@@ -49,3 +49,10 @@ printRxBuf: 133
 70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
 80: 00 00 00 00 00 
 ```
+
+## About bootloader,
+The bootloader has a size of less than 32KB. It will delay 500 ms after booting, then check the PD2 pin whether it's has HIGH level, if so, the bootloader will go to downloading mode. Otherwise, bootloader will directly jump to the app program at an offset of 32KB.
+
+
+
+
